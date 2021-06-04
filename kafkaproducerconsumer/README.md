@@ -1,9 +1,11 @@
+A simple example to show Kafka function with Producer/Consumer.
+
 Download apache kafka:
 https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.13-2.8.0.tgz
 
 Unzip it and place at any location on your system.
 
-Move to the kafka directory.
+Goto the kafka directory(kafka_2.13-2.8.0):
  1. Run zookeeper:
     >  bin/zookeeper-server-start.sh config/zookeeper.properties
  2. Start kafka Server
