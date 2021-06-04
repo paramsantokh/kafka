@@ -24,5 +24,6 @@ Using postman(or any other tool) post messages using below URL:
 http://localhost:8080/kafkaapp/post?msg=Hello
 
 In Application console you can see output as below:
-Publishing to topic: myTopic
-Consumed message: Hello
+
+_Publishing to topic: myTopic
+Consumed message: Hello_
