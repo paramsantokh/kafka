@@ -25,5 +25,6 @@ http://localhost:8080/kafkaapp/post?msg=Hello
 
 In Application console you can see output as below:
 
-_Publishing to topic: myTopic
-Consumed message: Hello_
+>Publishing to topic: myTopic
+
+>Consumed message: Hello
