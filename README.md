@@ -1,5 +1,8 @@
 A simple example to show Kafka function with Producer/Consumer.
 
+Producer will publish(send) the message to kafka topic and consumer 
+will consume(read) the message from there.
+
 Download apache kafka:
 https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.13-2.8.0.tgz
 
