@@ -16,7 +16,7 @@ public  class Producer{
   private KafkaTemplate<String, String> kafkaTemplate;
   
   public void publishToTopic(String message){
-  System.out.println("Publishing to topic: "+ topic);
+  System.out.println("Publishing to Topic: "+ topic+ " Message: " + message);
    this.kafkaTemplate.send(topic, message);
   }
 }
