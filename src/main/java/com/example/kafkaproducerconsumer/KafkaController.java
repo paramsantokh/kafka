@@ -18,6 +18,7 @@ public class KafkaController {
   
   @PostMapping(value="/post")
   public void sendMessage(@RequestParam("msg") String msg){
-    producer.publishToTopic(msg);
+    //publish uppercase
+    producer.publishToTopic(msg.toUpperCase());
   }
 }
