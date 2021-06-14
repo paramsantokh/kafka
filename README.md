@@ -30,4 +30,4 @@ In Application console you can see output as below:
 
 >Publishing to topic: myTopic
 
->Consumed message: Hello
+>Consumed message: HELLO
